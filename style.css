@@ -1098,6 +1098,19 @@ footer img {
     width: 200px;
   }
 
+  .left-side-bar {
+    display: none;
+    width: 0;
+    margin: 0;
+  }
+
+  .main-site {
+    width: 100%;
+    margin-left: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
   .navbar {
     display: block;
     background-color: rgb(220, 220, 220);
@@ -1112,9 +1125,9 @@ footer img {
     align-items: center;
     padding: 0 24px;
     z-index: 10;
-    box-shadow: -1px 0px 9px 3px rgba(0,0,0,0.75);
--webkit-box-shadow: -1px 0px 9px 3px rgba(0,0,0,0.75);
--moz-box-shadow: -1px 0px 9px 3px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 9px 3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 0px 9px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 0px 9px 3px rgba(0, 0, 0, 0.75);
   }
 
   .nav-menu {
@@ -1143,11 +1156,11 @@ footer img {
   .nav-menu.active {
     left: 0;
     background-color: #e4e4e4;
-      z-index: 99999 !important;
-      opacity: 1;
+    z-index: 99999 !important;
+    opacity: 1;
   }
 
-  .nav-item{
+  .nav-item {
     list-style: none !important;
     padding: 0;
     text-decoration: none;
