@@ -805,6 +805,9 @@ h2 {
   .carousel-title {
     padding: 16px;
   }
+  .carousel {
+    overflow-x: scroll;
+  }
 
   .slide {
     flex: 0 0 60%;
